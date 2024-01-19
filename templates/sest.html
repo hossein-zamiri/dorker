@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elements</title>
+</head>
+<body>
+    <h1>Elements:</h1>
+    <ul>
+        {% for dork in dorks %}
+            <li><a href="https://www.google.com/search?q={{ dork }}" target="_blank">click </a></li>
+        {% endfor %}
+    </ul>
+    <p>Domain: {{ domain }}</p>
+</body>
+</html>
